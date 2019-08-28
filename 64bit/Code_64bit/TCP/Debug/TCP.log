@@ -1,0 +1,128 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  WindowScale.c
+  TCP_Test.c
+  TCP_Socket.c
+  TCP_Packet.c
+  TCP_Outgoing.c
+  TCP_NetworkInterface.c
+  TCP_Incoming.c
+  TCP_Enum.c
+  TCP_Connection.c
+  TCP_ApplicationInterface.c
+  TCP.c
+c:\users\soniya\desktop\ddos_in_iot_10.2_64bit\code\tcp\tcp.c(19): warning C4028: formal parameter 1 different from declaration
+c:\users\soniya\desktop\ddos_in_iot_10.2_64bit\code\tcp\tcp.c(210): warning C4013: 'syn_flood' undefined; assuming extern returning int
+  TCB.c
+  SYN_flood.c
+c:\users\soniya\desktop\ddos_in_iot_10.2_64bit\code\tcp\syn_flood.c(28): warning C4013: 'get_Remotesocket' undefined; assuming extern returning int
+c:\users\soniya\desktop\ddos_in_iot_10.2_64bit\code\tcp\syn_flood.c(33): warning C4013: 'socket_creation' undefined; assuming extern returning int
+c:\users\soniya\desktop\ddos_in_iot_10.2_64bit\code\tcp\syn_flood.c(33): warning C4047: '=': 'PNETSIM_SOCKET' differs in levels of indirection from 'int'
+c:\users\soniya\desktop\ddos_in_iot_10.2_64bit\code\tcp\syn_flood.c(28): warning C4047: 'initializing': 'PNETSIM_SOCKET' differs in levels of indirection from 'int'
+c:\users\soniya\desktop\ddos_in_iot_10.2_64bit\code\tcp\syn_flood.c(97): warning C4047: 'return': 'int' differs in levels of indirection from 'PNETSIM_SOCKET'
+  SACK.c
+  RTO.c
+  DelayedAck.c
+  CUBIC.c
+  Congestion.c
+c:\users\soniya\desktop\ddos_in_iot_10.2_64bit\code\tcp\congestion.c(409): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\soniya\Desktop\ddos_in_iot_10.2_64bit\Code\TCP\..\Dll\TCP.dll) does not match the Linker's OutputFile property value (C:\Users\soniya\Desktop\ddos_in_iot_10.2_64bit\Code\Dll\libTCP.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(TCP) does not match the Linker's OutputFile property value (libTCP). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+Congestion.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     Creating library ..\Dll\TCP.lib and object ..\Dll\TCP.exp
+TCB.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+TCP_ApplicationInterface.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+TCP_Packet.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+TCP_Socket.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+Congestion.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+CUBIC.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+SACK.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+SYN_flood.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+TCP_ApplicationInterface.obj : error LNK2001: unresolved external symbol _ReportError
+TCP_Connection.obj : error LNK2001: unresolved external symbol _ReportError
+TCP_Incoming.obj : error LNK2001: unresolved external symbol _ReportError
+TCP_Packet.obj : error LNK2001: unresolved external symbol _ReportError
+Congestion.obj : error LNK2001: unresolved external symbol _ReportError
+RTO.obj : error LNK2001: unresolved external symbol _ReportError
+TCB.obj : error LNK2001: unresolved external symbol _ReportError
+TCP.obj : error LNK2001: unresolved external symbol _ReportError
+Congestion.obj : error LNK2019: unresolved external symbol _write_congestion_plot referenced in function _bic_ack_received
+CUBIC.obj : error LNK2001: unresolved external symbol _write_congestion_plot
+TCP_Socket.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+TCB.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+TCP_ApplicationInterface.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+TCP_Connection.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+TCP_Outgoing.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+Congestion.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+CUBIC.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+SACK.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+SYN_flood.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+TCP_Socket.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+TCP_Connection.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+TCP_Incoming.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+TCP_NetworkInterface.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+TCP_Packet.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+SYN_flood.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+TCB.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+TCP.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+TCP_ApplicationInterface.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+Congestion.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+CUBIC.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+DelayedAck.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+RTO.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+TCP_NetworkInterface.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+TCP_Outgoing.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+RTO.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+TCB.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+TCP_Connection.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+TCP_Incoming.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+RTO.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_CopyPacket_dbg referenced in function _add_timeout_event
+TCB.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_CopyPacket_dbg
+TCP_NetworkInterface.obj : error LNK2019: unresolved external symbol _fnAddEvent_F referenced in function _packet_arrive_from_network_layer
+RTO.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+SYN_flood.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+TCP.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+TCP_ApplicationInterface.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+TCP_Connection.obj : error LNK2001: unresolved external symbol _print_tcp_log
+TCP_Incoming.obj : error LNK2001: unresolved external symbol _print_tcp_log
+TCP_NetworkInterface.obj : error LNK2001: unresolved external symbol _print_tcp_log
+TCP_Socket.obj : error LNK2001: unresolved external symbol _print_tcp_log
+RTO.obj : error LNK2001: unresolved external symbol _print_tcp_log
+TCB.obj : error LNK2001: unresolved external symbol _print_tcp_log
+TCP.obj : error LNK2001: unresolved external symbol _print_tcp_log
+TCP_ApplicationInterface.obj : error LNK2001: unresolved external symbol _print_tcp_log
+SACK.obj : error LNK2019: unresolved external symbol _fnpReAllocateMemory_dbg referenced in function _set_sack_option
+SACK.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_GetPacketFromBuffer referenced in function _tcp_sack_nextSeg
+TCP_Outgoing.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_GetPacketFromBuffer
+TCB.obj : error LNK2019: unresolved external symbol _fnpFreeMemory_dbg referenced in function _check_for_other_segment_to_send_from_queue
+TCP_Packet.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+TCP_Socket.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+TCP.obj : error LNK2019: unresolved external symbol _fn_NetSim_TCP_Configure_F referenced in function _fn_NetSim_TCP_Configure
+TCP.obj : error LNK2019: unresolved external symbol _fn_NetSim_TCP_Init_F referenced in function _fn_NetSim_TCP_Init
+TCP.obj : error LNK2019: unresolved external symbol _fn_NetSim_TCP_CopyPacket_F referenced in function _fn_NetSim_TCP_CopyPacket
+TCP.obj : error LNK2019: unresolved external symbol _fn_NetSim_TCP_FreePacket_F referenced in function _fn_NetSim_TCP_FreePacket
+TCP.obj : error LNK2019: unresolved external symbol _fn_NetSim_TCP_Finish_F referenced in function _fn_NetSim_TCP_Finish
+TCP.obj : error LNK2019: unresolved external symbol _fn_NetSim_TCP_Metrics_F referenced in function _fn_NetSim_TCP_Metrics
+TCP.obj : error LNK2019: unresolved external symbol _fn_NetSim_TCP_ConfigPacketTrace_F referenced in function _fn_NetSim_TCP_ConfigPacketTrace
+TCP.obj : error LNK2019: unresolved external symbol _fn_NetSim_TCP_WritePacketTrace_F referenced in function _fn_NetSim_TCP_WritePacketTrace
+TCP_ApplicationInterface.obj : error LNK2019: unresolved external symbol _STR_TO_IP referenced in function _init_anysockaddr
+TCP_ApplicationInterface.obj : error LNK2019: unresolved external symbol _IP_COPY referenced in function _packet_arrive_from_application_layer
+TCP_Socket.obj : error LNK2001: unresolved external symbol _IP_COPY
+TCP_ApplicationInterface.obj : error LNK2019: unresolved external symbol _get_first_dest_from_packet referenced in function _packet_arrive_from_application_layer
+TCP_Packet.obj : error LNK2001: unresolved external symbol _get_first_dest_from_packet
+TCP_Socket.obj : error LNK2001: unresolved external symbol _get_first_dest_from_packet
+TCP_ApplicationInterface.obj : error LNK2019: unresolved external symbol _tcp_create_metrics referenced in function _tcp_init
+TCP_Socket.obj : error LNK2001: unresolved external symbol _tcp_create_metrics
+TCP_ApplicationInterface.obj : error LNK2019: unresolved external symbol _GET_PACKET_FROM_APP referenced in function _packet_arrive_from_application_layer
+TCP_NetworkInterface.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetNWProtocol referenced in function _send_to_network
+TCP_Packet.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_CreatePacket_dbg referenced in function _create_tcp_ctrl_packet
+TCP_Packet.obj : error LNK2019: unresolved external symbol _add_dest_to_packet referenced in function _create_tcp_ctrl_packet
+TCP_Socket.obj : error LNK2019: unresolved external symbol _list_alloc_dbg referenced in function _add_to_socket_list
+TCP_Socket.obj : error LNK2019: unresolved external symbol _list_next referenced in function _find_socket_list
+TCP_Socket.obj : error LNK2019: unresolved external symbol _list_add_last referenced in function _add_to_socket_list
+TCP_Socket.obj : error LNK2019: unresolved external symbol _list_free referenced in function _remove_from_socket_list
+..\lib\NetworkStack.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\Metrics.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\MemoryBlock.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\IP_Addressing.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\Dll\libTCP.dll : fatal error LNK1120: 32 unresolved externals
